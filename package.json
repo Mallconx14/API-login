@@ -1,0 +1,24 @@
+{
+  "name": "api-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mallconx14/API-login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mallconx14/API-login/issues"
+  },
+  "homepage": "https://github.com/Mallconx14/API-login#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0"
+  }
+}
