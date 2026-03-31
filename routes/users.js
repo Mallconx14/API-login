@@ -2,7 +2,10 @@ const express = require('express');
 const router = express.Router();
 const db = require('../db');
 
-//Get em usuários
+//Post em usuários (create)
+
+
+//Get em usuários (read)
 router.get('/', (req, res) => {
     db.query('SELECT * FROM users', (err, results) => {
         if (err) {
@@ -11,6 +14,8 @@ router.get('/', (req, res) => {
             res.json(results);
         }
     });
-});
+}); 
+
+
 
 module.exports = router;
